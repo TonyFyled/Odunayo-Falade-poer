@@ -15,10 +15,10 @@
       <img src="../Resources/Logo.png" alt="logo">
       <div>
         <ul class="navigations">
-          <li><a href="../HTML/homepage.html">WORK</a></li>
-          <li><a href="../HTML/writingpage.html">WRITING</a></li>
+          <li><a href="/index.html">WORK</a></li>
+          <li><a href="/writingpage.html">WRITING</a></li>
           <li><a class="clickIn" href="">NFTs</a></li>
-          <li><a href="">ABOUT</a></li>
+          <li><a href="/about.html">ABOUT</a></li>
         </ul>
       </div>
       <a href="" class="btn">CV/RESUME</a>
@@ -27,7 +27,7 @@
       <div class="card">
         <div class="form-group">
           <h2>You have a project in mind? Awesome</h2>
-          <form class="getintouch">
+          <form class="getintouch" name="contact" method="POST" data-netlify="true">
             <div class="getin">
               <div>
                 <label for="name">Name</label>
@@ -41,7 +41,7 @@
             <div class="touch">
               <label for="message">Your message</label>
               <textarea name="message" id="message" cols="50" rows="10" placeholder=" Write Something..."></textarea>
-              <input type="submit" value="Let's get started">
+              <button type="submit" class="btn-opaque">Let's get started</button>
             </div>
           </form>
         </div>

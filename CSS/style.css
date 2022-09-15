@@ -134,7 +134,7 @@ a{
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-top: 30px;
   padding-bottom: 40px;
   border-bottom: 0.1px rgba(0, 0, 0, 0.1) solid;
@@ -146,7 +146,7 @@ a{
   justify-content: space-evenly;
 }
 .navigations a {
-  padding: 30px;
+  padding: 20px;
   font-weight: 600;
   font-size: 16px;
   line-height: 20px;
@@ -277,13 +277,16 @@ a{
   align-items: center;
   justify-content: space-between;
 }
-.touch input{
+.touch button{
+  border: 0.1px rgba(0, 0, 0, 0.2) solid;
+  padding: 20px;
   margin-top: 30px;
   width: 100%;
   background-color: white;
   color: #252B33;
   font-weight: 600;
   font-size: 16px;
+  border-radius: 5px;
 }
 .touch input:hover{
   background-color: #252B33;

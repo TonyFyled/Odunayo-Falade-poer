@@ -81,5 +81,16 @@
   .touch button{
     width: 90%;
   }
+  .firstabout img{
+    width: 170px;
+    height: 200px;
+  }
+  .firstabout-content{
+    width: 100%;
+    padding-right: 10px;
+  }
+  .secondabout{
+    padding-top: 100px;
+  }
 }
  

@@ -133,7 +133,7 @@
     justify-content: space-between;
     padding-top: 30px;
     padding-bottom: 30px;
-    width: 350px;
+    width: 100%;
   }
   .forimg{
     height: 100px;
@@ -314,16 +314,19 @@
     grid-gap: 40px;
   }
   .fifthabout{
-    width: 350px;
+    width: 100%;
     padding: 30px;
   }
   .sixthabout{
     text-align: center;
-    width: 350px;
+    width: 100%;
     padding: 10px;
   }
   .sixthabout .fourthabout-content{
-    display: grid;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
   }
   .sixthabout .fourthabout-content text h2{
     font-size: 18px;
@@ -337,7 +340,7 @@
   .seventhabout{
     text-align: center;
     padding: 30px;
-    width: 350px;
+    width: 100%;
   }
   .seventhabout h1{
     padding-bottom: 40px;

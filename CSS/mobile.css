@@ -9,7 +9,7 @@
     justify-content:center;
   }
   .container{
-    width: 800px;
+    width: 900px;
   }
   .container4{
     width: 600px;
@@ -39,11 +39,15 @@
     width: 200px;
   }
   .seventhabout .box{
-    grid-gap: 5px;
+    grid-gap: 10px;
   }
   .seventhabout img{
-    height: 40px;
-    width: 60px
+    height: 70px;
+    width: 70px
+  }
+  .seventhabout .box-content{
+    padding-right: 25px;
+    padding-left: 25px;
   }
   .eigthabout .box-content{
     padding: 12px 12px;
@@ -93,4 +97,314 @@
     padding-top: 100px;
   }
 }
- 
+@media (max-width:500px) {
+  body{
+    font-size: 14px;
+  }
+  .hero-content h1{
+    font-size: 20px;
+  }
+  .container{
+    width: 390px;
+  }
+  .container2{
+    width: 370px;
+    padding: 15px;
+  }
+  .container3{
+    width: 350px;
+  }
+  .container4{
+    width: 350px;
+  }
+  .menu{
+    display: block;
+  }
+  .navigations{
+    display: none;
+  }
+  .navbar .btn{
+    display: none;
+  }
+  .navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 350px;
+  }
+  .forimg{
+    height: 100px;
+    width: 100px;
+  }
+  .fcake-width{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+  }
+  .tokenify-width{
+    width: 100px;
+    height: 100px;
+  }
+  .shield-width{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+  }
+  .peer{
+    position: absolute;
+    top: 22%;
+    left: 32%;
+    width: 35px;
+    height: 60px;
+  }
+  .card-content p{
+    font-weight: 200;
+  }
+  .content{
+    justify-content:flex-start;
+    padding-top: 20px;
+    padding-bottom: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 300px;
+  }
+  .meh{
+    padding: 10px 0 0 20px;
+  }
+  .meh p{
+    width: 175px;
+    font-size: 12px;
+    padding-bottom: 15px;
+    line-height: 14px;
+  }
+  .meh h2{
+    font-size: 14px;
+  }
+  .footer-nav a,  .home-footer p{
+    font-size: 10px;
+    padding: 5px;
+  }
+  .footer-nav{
+    justify-content: space-around;
+  }
+  .btn{
+    padding: 10px 18px;
+  }
+  .home-footer{
+    width: 370px;
+    text-align: center;
+  }
+  .writing-content{
+    padding: 10px 20px 20px 20px;
+  }
+  .writing-content a{
+    font-weight: 600;
+  }
+  .NFTsContent{
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
+  .firstabout{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .firstabout img{
+    width: 150px;
+    height: 150px;
+  }
+  .firstabout-content{
+    width: 100%;
+    text-align: center;
+  }
+  .firstabout-content h1{
+    font-size: 20px;
+    padding-top: 20px;
+  }
+  .firstabout-content p{
+    width: 92%;
+    font-size: 14px;
+    padding-top: 20px;
+  }
+  .firstabout-content p span{
+    font-weight: 600;
+  }
+  .secondabout{
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .secondabout ul{
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .secondabout img{
+    width: 125px;
+    height: 250px;
+  }
+  .secondabout li{
+    border: 2px rgba(0, 0, 0, 0.3) dashed ;
+    display: inline;
+  }
+  .list-elements{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: right;
+  }
+  .list-elements li, .list-elements1 li{
+    margin-bottom: 30px;
+    padding: 10px;
+  }
+  .list-elements li p, .list-elements1 li p{
+    font-weight: 100;
+    font-size: 12px;
+  }
+  .list-elements li, .list-elements1 li{
+    font-size: 12px;
+  }
+  .list-elements li{
+    margin-bottom: 30px;
+    padding: 10px;
+  }
+  .list-elements1 {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .box-content{
+    border: 1px rgba(0, 0, 0, 0.2) solid;
+    padding: 30px 10px;
+    border-radius: 5px;
+    font-weight: 300;
+  }
+  .box-content p{
+    font-weight: 300;
+  }
+  .box-content h4{
+    padding: 2px 0px;
+    font-size: 10px;
+    font-weight: 700;
+  }
+  .box-content p{
+    padding: 2px 0px;
+    font-size: 12px;
+    font-weight: 450;
+  }
+  .box{
+    grid-gap: 2px;
+  }
+  .fourthabout-content{
+    grid-gap: 40px;
+  }
+  .fifthabout{
+    width: 350px;
+    padding: 30px;
+  }
+  .sixthabout{
+    text-align: center;
+    width: 350px;
+    padding: 10px;
+  }
+  .sixthabout .fourthabout-content{
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    justify-content: center;
+  }
+  .sixthabout .fourthabout-content text h2{
+    font-size: 18px;
+  }
+  .text h3{
+    font-size: 14px;
+  }
+  .text1 p{
+    width: 150px;
+  }
+  .seventhabout{
+    text-align: center;
+    padding: 30px;
+    width: 350px;
+  }
+  .seventhabout h1{
+    padding-bottom: 40px;
+  }
+  .seventhabout .box-content {
+    text-align: center;
+    padding: 16px 7px;
+  }
+  .seventhabout .box-content p{
+    padding-top: 10px;
+    font-weight: 500;
+  }
+  .seventhabout .box:last-child img{
+    height: 98px;
+  }
+  .seventhabout .box{
+    grid-gap: 2px;
+  }
+  .seventhabout .box img{
+    width: 50px;
+    height: 49px;
+  }
+  .eigthabout{
+    width: 350px;
+    text-align: center;
+  }
+  .eigthabout .box-content{
+    padding: 12px 5px;
+  }
+  .eigthabout .box{
+    display: grid;
+    grid-template-columns: repeat(3, 80px);
+    grid-gap: 5px;
+  }
+  .form-group{
+    width: 300px;
+  }
+  .form-group h2{
+    font-size: 16px;
+  }
+  .getin{
+    justify-content: left;
+  }
+  .getin input{
+    margin: 10px;
+  }
+  .getintouch input{
+    width: 148px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 0 5px;
+  }
+  .getintouch textarea{
+    padding: 10px;
+    width: 110%;
+    border-radius: 5px;
+  }
+  .touch button{
+    width: 110%;
+  }
+  .card{
+    padding: 5px;
+  }
+  .main-content .card{
+    padding: 15px;
+  }
+}

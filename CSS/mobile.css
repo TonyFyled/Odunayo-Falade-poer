@@ -105,17 +105,17 @@
     font-size: 20px;
   }
   .container{
-    width: 390px;
+    width: 100%;
   }
   .container2{
-    width: 370px;
+    width: 100%;
     padding: 15px;
   }
   .container3{
-    width: 350px;
+    width: 100%;
   }
   .container4{
-    width: 350px;
+    width: 100%;
   }
   .menu{
     display: block;
@@ -323,10 +323,7 @@
     padding: 10px;
   }
   .sixthabout .fourthabout-content{
-    display: flex;
-    flex-direction: row ;
-    align-items: center;
-    justify-content: center;
+    display: grid;
   }
   .sixthabout .fourthabout-content text h2{
     font-size: 18px;
@@ -335,7 +332,7 @@
     font-size: 14px;
   }
   .text1 p{
-    width: 150px;
+    width: 140px;
   }
   .seventhabout{
     text-align: center;
@@ -364,15 +361,15 @@
     height: 49px;
   }
   .eigthabout{
-    width: 350px;
+    width: 100%;
     text-align: center;
+    padding: 0;
   }
   .eigthabout .box-content{
     padding: 12px 5px;
   }
   .eigthabout .box{
     display: grid;
-    grid-template-columns: repeat(3, 80px);
     grid-gap: 5px;
   }
   .form-group{

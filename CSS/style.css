@@ -11,13 +11,12 @@ span{
   font-weight: 600;
 }
 .container{
-  width: 1200px;
+  width: 1300px;
   overflow: hidden;
-  padding: 20px;
   margin: auto;
 }
 .container2{
-  width: 800px;
+  width: 1000px;
   overflow: hidden;
   padding: 20px;
   margin: auto;
@@ -29,14 +28,14 @@ span{
   margin: auto;
 }
 .container4{
-  width: 1000px;
+  width: 1200px;
   overflow: hidden;
   padding: 20px;
   margin: auto;
 }
 .card{
   border: 1px rgba(0, 0, 0, 0.2) solid;
-  padding: 20px;
+  padding: 40px;
   border-radius: 5px;
 }
 .btn{
@@ -95,7 +94,6 @@ span{
 }
 .tokenify-width{
   width: 200px;
-  height: 200px;
 }
 .shield-width{
   width: 100px;
@@ -170,13 +168,13 @@ a{
   text-decoration: none;
   padding: 10px;
   color: #252B33;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Gilroy-regular', sans-serif;
 }
 .navbar{
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   padding-top: 30px;
   padding-bottom: 40px;
   border-bottom: 0.1px rgba(0, 0, 0, 0.1) solid;
@@ -189,10 +187,12 @@ a{
 }
 .navigations a {
   padding: 20px;
+  margin-right: 48px;
   font-weight: 600;
   font-size: 16px;
   line-height: 20px;
   color: #252B33;
+ font-family: 'Gilroy-regular', sans-serif;
 }.home-footer{
   padding-top: 50px;
 }
@@ -215,10 +215,18 @@ a{
   font-size: 18px;
 }
 .hero-content{
+  padding-top: 48px;
   padding-bottom: 50px;
 }
 .hero-content h1{
   padding-bottom: 5px;
+  font-size: 40px;
+}
+.hero-content p{
+  font-size: 18px;
+}
+.hero{
+  margin-bottom: 56px;
 }
 .main-content{
   padding-bottom: 40px;
@@ -230,11 +238,12 @@ a{
 .content{
   padding-top: 20px;
   padding-bottom: 18px;
+  padding-left: 32px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
-  width: 570px;
+  width: 670px;
 }
 .meh{
   padding-top: 50px;
@@ -242,10 +251,14 @@ a{
   text-align: start;
 }
 .meh p{
+  padding-top: 10px;
   font-weight: 200;
   padding-bottom: 30px;
-  width: 320px;
+  width: 400px;
   text-align: start;
+}
+.meh a{
+  font-size: 14px;
 }
 .forimg{
   border-radius: 5px;
@@ -368,12 +381,18 @@ a{
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
+  padding-top: 32px;
 }
 .firstabout img{
-  width: 200px;
+  align-items: flex-end;
+  width: 300px;
+  height: 330px;
 }
 .firstabout-content{
   width: 52%;
+}
+.firstabout-content{
+  padding: 56px;
 }
 .firstabout-content p{
   width: 92%;
@@ -417,12 +436,14 @@ a{
   padding: 20px 10px 20px 40px;
 }
 .list-elements li p, .list-elements1 li p{
-  font-weight: 500;
+  font-weight: 600;
+  letter-spacing: 0.24em;
+  width: 150px;
 }
 .list-elements1 li{
   width: 200px;
   margin-bottom: 30px;
-  padding: 20px 40px 20px 10px
+  padding: 20px 40px 20px 15px
 }
 .list-elements1 {
   text-align: left;
@@ -477,17 +498,14 @@ a{
   border-radius: 5px;
   font-weight: 300;
 }
-.box-content p{
-  font-weight: 300;
-}
 .box-content h4{
   padding: 5px 0px;
   font-size: 14px;
 }
 .box-content p{
   padding: 2px 0px;
-  font-size: 14px;
   font-weight: 450;
+  font-size: 18px;
 }
 .box-content .line{
   text-align: center;
@@ -534,10 +552,12 @@ a{
 }
 .fifthabout p{
   padding: 10px;
+  font-size: 18px;
 }
 .sixthabout{
   text-align: center;
   padding: 60px;
+  font-size: 18px;
 }
 .images{
   display: grid;
@@ -567,22 +587,28 @@ a{
   padding: 60px;
 }
 .eigthabout h1{
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 .eigthabout .box{
   grid-template-columns: repeat(3, 1fr);
 }
 .eigthabout .box-content{
   text-align: left;
-  padding: 30px 15px;
+  padding: 40px 32px;
 }
 .eigthabout .box-content img{
-  width: 30px;
-  height: 30px;
+  width:  40px;
+  height: 40px;
   background-color: rgba(0, 0, 0, 0.1);
   padding: 5px;
   border-radius: 10px;
+  margin-bottom: 14px;
+}
+.eigthabout .box-content h4{
+  font-size: 18px;
 }
 .eigthabout .box-content p{
   font-weight: 300;
+  font-size: 18px;
+  padding-bottom: 10px;
 }

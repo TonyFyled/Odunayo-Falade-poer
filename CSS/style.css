@@ -33,6 +33,20 @@ span{
   padding: 20px;
   margin: auto;
 }
+.warning{
+  background-color: #fcefef;
+  border-radius: 2px;
+  border: 1px red solid;
+  text-align: center;
+  color:red; 
+  padding: 5px;
+  margin: auto;
+  width: 90%;
+  font-family: 'gilroy-medium' sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  display: none;
+}
 .card{
   border: 1px rgba(0, 0, 0, 0.2) solid;
   padding: 40px;
@@ -297,6 +311,7 @@ a{
 /* get in touch page */
 .form-group{
   padding: 30px;
+  font-family: 'Gilroy-medium' sans-serif;
 }
 .form-group h2{
  text-align: center;

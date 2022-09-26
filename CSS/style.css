@@ -124,6 +124,7 @@ span{
   padding: 6px;
   display: none;
   position: relative;
+  margin: 10px 15px;
 }
 .menu:hover .sidenav{
   display: block;
@@ -153,6 +154,7 @@ span{
 .space{
   padding-bottom: 15px;
 }
+.menu
 /* Normals */
 body{
   background-color: #ffffff;
